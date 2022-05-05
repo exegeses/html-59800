@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(211, 211, 211);
+}
+
+#verde{
+    background-color: rgb(181, 253, 175);
+    height: 200px;
+    width: 200px;
+    /* margin es la separación hacia FUERA  */
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+#naranja{
+    background-color: rgb(253, 226, 175);
+    height: 200px;
+    width: 200px;
+    /* padding es la separación hacia DENTRO */
+    padding: 50px;
+}

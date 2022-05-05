@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(193, 193, 193);
+}
+
+#contenedor{
+    background-color: #fff;
+    height: 250px;
+
+    /* centrar una caja */
+    width: 700px;
+    margin: auto;    
+
+    /* flexbox */
+    display: flex; /* ubica una caja al lado de la otra */
+
+    /* alinear cajas dentro de contenedor */
+    /* justify-content: center; */
+
+    /* separacion entre las cajas dentro de contenedor */
+    justify-content: space-between;
+}
+
+    #celeste{
+        width: 200px;
+        height: 200px;
+        background-color: rgb(175, 245, 253);
+    }
+    #rosa{
+        width: 200px;
+        height: 200px;
+        background-color: rgb(253, 175, 201);
+        
+    }
