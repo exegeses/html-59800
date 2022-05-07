@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+}
+#gradiente{
+    height: 500px;  
+    background: rgb(10,167,196);
+    background: linear-gradient(110deg, rgba(10,167,196,1) 0%, rgba(236,193,68,1) 100%);
+}
+#imagen{
+    height: 500px;
+    background-image: url(../imagenes/faro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+h2{
+    padding: 100px;   
+}
