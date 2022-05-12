@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 300;
+    color: #53514E;
+    font-weight: 300;
+}
+header{
+    /* centrar una caja ->  ancho + margin:auto  */
+    width: 1100px;
+    margin: auto; 
+
+    /* flexbox */
+    display: flex; /* uno al lado del otro */
+
+    /* separación ENTRE los elementos */
+    justify-content: space-between;
+
+    height: 70px;
+    /*line-height: 70px;*/
+    align-items: center; /* centrar en vertical */
+}
+    header a img{
+        width: 48px;
+    }
+    nav a{
+        padding: 14px;
+        text-decoration: none;
+        color: #53514E;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+main{
+    min-height: 600px; /* altura minima, se adapta la altura al contenido*/
+}
+footer{
+    min-height: 160px;
+    background-color: #807871;
+}
+#items{
+    width: 1100px;
+    margin: auto; 
+
+    min-height: 160px;
+    background-color: #88807a;
+
+    display: flex;
+    justify-content: space-between;
+}
