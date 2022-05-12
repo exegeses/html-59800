@@ -48,8 +48,16 @@ footer{
     margin: auto; 
 
     min-height: 160px;
-    background-color: #88807a;
 
     display: flex;
     justify-content: space-between;
 }
+
+    #items a{
+        text-decoration: none;
+    }
+
+    #redes a img{
+        width: 20px;
+        margin: 6px;
+    }
