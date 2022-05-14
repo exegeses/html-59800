@@ -36,6 +36,12 @@ header{
         font-weight: 600;
     }
 
+#heroIndex{
+    height: 450px;
+    /* imagen de fondo */
+    
+}
+
 main{
     min-height: 600px; /* altura minima, se adapta la altura al contenido*/
 }
@@ -48,6 +54,7 @@ footer{
     margin: auto; 
 
     min-height: 160px;
+    align-items: center;
 
     display: flex;
     justify-content: space-between;
@@ -71,7 +78,7 @@ footer{
             margin-left: 60px;
         }
         #textosFooter li{
-            list-style-type: none;
+            list-style-type: none; /* quitar bullet de lista */
             margin-bottom: 8px;
         }
         .tituloLista{
