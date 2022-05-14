@@ -39,7 +39,10 @@ header{
 #heroIndex{
     height: 450px;
     /* imagen de fondo */
-    
+    background-image: url(../imagenes/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center, center;
 }
 
 main{
@@ -58,6 +61,7 @@ footer{
 
     display: flex;
     justify-content: space-between;
+
 }
 
     #items a{
