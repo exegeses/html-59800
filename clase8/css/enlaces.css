@@ -1,0 +1,26 @@
+body{
+    font-family: 'Trebuchet MS';
+}
+#txt{
+    height: 70px;
+}
+#txt a{
+    text-decoration: none;
+    color: rgb(220, 136, 27);
+}
+#txt a:hover{
+    color: rgb(167, 98, 9);
+}
+#boton a{
+    text-decoration: none;
+    background-color: rgb(220, 136, 27);
+    color: rgb(252, 234, 212);
+
+    padding: 8px 30px;
+
+    border-radius: 35px;
+}
+#boton a:hover{
+    background-color: rgb(233, 149, 41);
+    color: rgb(252, 245, 212);
+}
