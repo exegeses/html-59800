@@ -6,7 +6,6 @@
 }
 body{
     font-family: 'Raleway', sans-serif;
-    font-size: 300;
     color: #53514E;
     font-weight: 300;
 }
@@ -148,6 +147,53 @@ main{
         margin-top: 25px;
         
     }
+
+    /* sección contacto  */
+    #heroContacto{
+        height: 580px;
+        background-image: url(../imagenes/hero-3.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center -300px;
+        padding-top: 50px;
+    }
+
+        #heroContacto form{
+            width: 698px;
+            margin: auto;
+            padding: 14px 28px;
+            background-color: #fff;
+            border-radius: 4px;
+        }
+        #heroContacto input, textarea{
+            display: block;
+            width: 100%;
+            font-family: 'Raleway', sans-serif;
+            color: #53514E;
+            font-weight: 300;
+            border: 1px solid #CECECE;
+            border-radius: 4px;
+            margin: 8px 0px 14px 0px;
+            padding: 8px;
+        }
+        #heroContacto textarea{
+            height: 80px;
+            resize: none;
+        }
+        #heroContacto button{
+            width: 200px;
+            color: #53514E;
+            background-color: #F7BB74;
+            padding: 8px;
+            border: 1px solid #bc8949;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        #heroContacto button:hover{
+            color: #fff;
+            background-color: #e4a75d;
+            background-color: #f8c990;
+        }
 
 footer{
     min-height: 160px;
